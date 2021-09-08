@@ -11,7 +11,7 @@ html{
 }
 
 .fixed-top{
-   background: #000000c4;
+   background: #2f3045e8;
 }
 
 .navbar-dark .navbar-brand {
@@ -22,7 +22,7 @@ html{
    text-shadow: -1px -1px 0 #644682;
    font-family: sans-serif;
    display: inline;
-   margin-left: .5rem;
+   margin-left: 6.7rem;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -46,20 +46,19 @@ html{
 
 // Nav
 .navbar-dark .navbar-nav .nav-link {
-   color: rgba(255, 255, 255, 0.95);
+   color: #fff;
    transition: all .5s ease;
    text-align: center;
    margin: .3rem 0;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link{
-   background: #F05F40;
+   color: #03e1e4;
    margin-top: 6px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-   color: RGBA(255 255 255);
-   background: #f06040af;
+   color: #03e1e4;
 
 }
 
