@@ -50,7 +50,8 @@ html {
 .btn-primary {
   background-color: #F05F40;
   border-color: #c94726;
-  transition: all .5s ease; }
+  transition: all .5s ease;
+  text-transform: uppercase; }
 
 .btn-primary:hover {
   color: #fff;
@@ -60,3 +61,16 @@ html {
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   background-color: #f17357;
   border-color: #f34318; }
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.15rem RGB(236 55 26/87%); }
+
+.about-us {
+  background: #F05F40;
+  color: #fff; }
+
+.img-responsive {
+  display: block; }
+
+.btn-light {
+  text-transform: uppercase; }
