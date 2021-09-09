@@ -1,5 +1,8 @@
 html {
   font-size: 16px;
+  font-family: sans-serif; }
+
+body {
   font-family: pixelSC,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
 
 .welcomes {
@@ -89,7 +92,7 @@ html {
   box-shadow: 0 0 0 0.15rem RGB(236 55 26/87%); }
 
 .about-us {
-  background: #FFF;
+  background: #e9e7ed;
   color: #7d59a1;
   text-shadow: 2px 2px 0 RGB(133 116 142/22%); }
 
@@ -103,3 +106,21 @@ html {
   border: 1px solid #9ff2f3;
   color: #2f3045;
   font-weight: 700; }
+
+.how-work {
+  color: #04c8cb;
+  font-family: monospace;
+  font-weight: 600; }
+
+.title_services {
+  max-height: 21px;
+  line-height: .7;
+  color: #04c8cb;
+  font-family: MS UI Gothic;
+  font-weight: 900;
+  letter-spacing: .1rem; }
+
+.row p {
+  color: #0b131a;
+  opacity: .77;
+  font-family: Malgun Gothic; }
